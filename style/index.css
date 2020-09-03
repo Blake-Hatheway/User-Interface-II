@@ -1,1 +1,48 @@
 /* Add CSS styling here */
+body {
+    text-align: center;
+    background-color: tan;
+}
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.row1 div{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    padding:3%;
+    justify-content: center;
+}
+.row1 div img{
+    height: 200px;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    
+}
+.row1 div h3 {
+    text-align: center;
+}
+
+footer {
+    background: rgb(165, 127, 77);
+    padding: 4%;
+}
+footer a {
+    background-color: rgb(216, 214, 196));
+    font-size: 30px;
+}
